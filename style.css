@@ -1,0 +1,148 @@
+body{
+    position: relative;
+    height: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-image: linear-gradient(#FFF, #F5F5F5);
+    border: 1px solid #E7E7E7;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 #F5F5F5, 0 1px 4px 0 #F5F5F5;
+    z-index: 1;
+}
+
+footer{
+    position: relative;
+    top: 97em;
+    height: 40px;
+    width: 100%;
+    padding-top: 30px;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+.footer-link{
+    display: inline;
+    color: grey;
+}
+
+.footer-link:hover{
+    color: grey;
+}
+
+input{
+    position: relative;
+    top: 8px;
+    right: 25px;
+    float: right;
+    height: 60%;
+    width: 200px;
+    border: 1px solid lightgrey;
+    border-radius: 5px 0px 0px 5px;
+}
+
+button{
+    position: relative;
+    top: 8px;
+    right: 31px;
+    float: right;
+    height: 67%;
+    width: 50px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-image: linear-gradient(#8B0000, #4E0000)
+}
+
+a{
+    color: #8B0000;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #3E0000;
+    text-decoration: underline;
+}
+
+#logo{
+    position: relative;
+    top: 5px;
+    left: 20px;
+    height: 80%;
+    width: 15%;
+}
+
+#main-container{
+    position: relative;
+    top: 75px;
+    height: 1000px;
+    width: 780px;
+    margin: auto;
+}
+
+#details{
+    height: 200px;
+    width: 760px;
+    padding-top: 15px;
+    padding-left: 18px;
+    background-image: linear-gradient(#E5E5E5, #F5F5F5);
+    border: 1px solid #DDDBDB;
+    border-radius: 3px;
+    line-height: 0.5;
+}
+
+#page-header{
+    height: 160px;
+    width: 100%;
+    margin-top: 40px;
+    border-bottom: 1px solid #DDDBDB;
+    text-align: center;
+}
+
+#author{
+    font-size: x-large;
+}
+
+#title{
+    font-size: 36px;
+}
+
+#subtitle{
+    position: relative;
+    bottom: 30px;
+    font-size: x-large;
+    color: grey;
+}
+
+#contents{
+    height: 80px;
+    width: 740px;
+    margin-top: 45px;
+    padding-top: 30px;
+    padding-left: 40px;
+    background-image: linear-gradient(#E5E5E5, #F5F5F5);
+    border: 1px solid #DDDBDB;
+    border-radius: 3px;
+}
+
+.content-link{
+    font-size: small;
+    font-weight: bold;
+    color: #333;
+}
+
+.content-link:hover{
+    color: #333;
+}
+
+#main-article{
+    height: auto;
+    width: 100%;
+    line-height: 1.42857143;
+}
